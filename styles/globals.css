@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -13,4 +17,28 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+.mt {
+  margin: 20px 25px;
+}
+
+.mt-5 {
+  margin-top: 20px;
+}
+
+.mt-2 {
+  margin-top: 5px;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-end {
+  justify-content: end;
+}
+
+.justify-center {
+  justify-content: center;
 }
